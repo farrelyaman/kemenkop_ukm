@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View} from 'react-native';
 
-import Home from './src/pages/Home';
+import Update from './src/pages/Update';
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
           backgroundColor='#E40001'
           barStyle='light-content'
       />
-      <Home/>
+      <Update/>
     </View>
   );
 }
